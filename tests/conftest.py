@@ -3,4 +3,4 @@ import pytest
 
 @pytest.fixture
 def api_url():
-    return 'https://reqres.in/api'
+    return 'http://partner-api-lottery-test.apps.dev.int.nl-dev.ru'
