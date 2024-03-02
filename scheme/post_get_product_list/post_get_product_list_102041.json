@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "productCode": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "productType": {
+      "type": "string"
+    },
+    "productStatus": {
+      "type": "string"
+    },
+    "ean13": {
+      "type": "string"
+    },
+    "drawNumber": {
+      "type": "string"
+    },
+    "drawDate": {
+      "type": "integer"
+    },
+    "sellUntilDate": {
+      "type": "integer"
+    },
+    "productPrize": {
+      "type": "integer"
+    },
+    "minPrice": {
+      "type": "integer"
+    },
+    "mainNumbersMin": {
+      "type": "integer"
+    },
+    "mainNumbersMax": {
+      "type": "integer"
+    },
+    "vglName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "productCode",
+    "productName",
+    "productType",
+    "productStatus",
+    "ean13",
+    "drawNumber",
+    "drawDate",
+    "sellUntilDate",
+    "productPrize",
+    "minPrice",
+    "mainNumbersMin",
+    "mainNumbersMax",
+    "vglName"
+  ]
+}
