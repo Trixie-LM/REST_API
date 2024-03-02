@@ -49,10 +49,12 @@ try:
         )
 
         print(cursor.fetchone())
+        print(cursor.fetchone())
+        print(cursor.fetchone())
         # print(cursor.fetchall())
 
         for row in cursor.fetchall():
-            print(row)
+            print(row[0])
 
 
     # delete a table

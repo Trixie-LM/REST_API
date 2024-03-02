@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "productCode": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "productType": {
+      "type": "string"
+    },
+    "productStatus": {
+      "type": "string"
+    },
+    "ean13": {
+      "type": "string"
+    },
+    "productPrize": {
+      "type": "integer"
+    },
+    "minPrice": {
+      "type": "integer"
+    },
+    "multibet": {
+      "type": "boolean"
+    },
+    "maxPrice": {
+      "type": "integer"
+    },
+    "mainNumbersMin": {
+      "type": "integer"
+    },
+    "mainNumbersMax": {
+      "type": "integer"
+    },
+    "addNumbersMin": {
+      "type": "integer"
+    },
+    "addNumbersMax": {
+      "type": "integer"
+    },
+    "vglName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "productCode",
+    "productName",
+    "productType",
+    "productStatus",
+    "ean13",
+    "productPrize",
+    "minPrice",
+    "multibet",
+    "maxPrice",
+    "mainNumbersMin",
+    "mainNumbersMax",
+    "addNumbersMin",
+    "addNumbersMax",
+    "vglName"
+  ]
+}
